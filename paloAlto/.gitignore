@@ -1,0 +1,19 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Build
+dist/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

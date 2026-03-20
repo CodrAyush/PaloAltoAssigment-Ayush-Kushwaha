@@ -1,0 +1,170 @@
+[
+  {
+    "id": "cloud-engineer",
+    "title": "Cloud Engineer",
+    "category": "Cloud & Infrastructure",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Design and implement cloud infrastructure solutions using AWS, Azure, or GCP",
+      "Manage CI/CD pipelines and automate deployment processes",
+      "Monitor cloud resources and optimize costs"
+    ],
+    "requiredSkills": ["AWS", "Azure", "GCP", "Docker", "Kubernetes", "Terraform", "Linux", "Networking", "CI/CD", "Python", "Bash", "CloudFormation", "IAM", "Monitoring"],
+    "preferredSkills": ["Ansible", "Jenkins", "Prometheus", "Grafana", "Helm", "Service Mesh", "Serverless", "Cost Optimization"],
+    "experienceYears": 3
+  },
+  {
+    "id": "frontend-developer",
+    "title": "Frontend Developer",
+    "category": "Software Development",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Build responsive web applications using modern JavaScript frameworks",
+      "Collaborate with UX designers to implement pixel-perfect interfaces",
+      "Write unit and integration tests for frontend components"
+    ],
+    "requiredSkills": ["JavaScript", "TypeScript", "React", "HTML", "CSS", "Git", "REST APIs", "Responsive Design", "Testing", "Webpack", "Node.js", "Agile"],
+    "preferredSkills": ["Next.js", "GraphQL", "Redux", "Tailwind CSS", "Storybook", "Cypress", "Performance Optimization", "Accessibility"],
+    "experienceYears": 2
+  },
+  {
+    "id": "backend-developer",
+    "title": "Backend Developer",
+    "category": "Software Development",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Design and build scalable RESTful APIs and microservices",
+      "Manage databases and ensure data integrity",
+      "Implement authentication and authorization systems"
+    ],
+    "requiredSkills": ["Python", "Java", "Node.js", "SQL", "REST APIs", "Git", "Docker", "PostgreSQL", "MongoDB", "Redis", "Linux", "Microservices"],
+    "preferredSkills": ["GraphQL", "Kafka", "RabbitMQ", "Elasticsearch", "gRPC", "Kubernetes", "AWS Lambda", "System Design"],
+    "experienceYears": 3
+  },
+  {
+    "id": "data-scientist",
+    "title": "Data Scientist",
+    "category": "Data & AI",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Analyze large datasets to extract actionable business insights",
+      "Build and deploy machine learning models for prediction and classification",
+      "Create data visualizations and dashboards for stakeholders"
+    ],
+    "requiredSkills": ["Python", "R", "SQL", "Machine Learning", "Statistics", "Pandas", "NumPy", "Scikit-learn", "Data Visualization", "Jupyter", "TensorFlow", "Deep Learning"],
+    "preferredSkills": ["PyTorch", "NLP", "Computer Vision", "Spark", "Hadoop", "A/B Testing", "Feature Engineering", "MLOps"],
+    "experienceYears": 2
+  },
+  {
+    "id": "devops-engineer",
+    "title": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Automate infrastructure provisioning and configuration management",
+      "Implement and maintain CI/CD pipelines",
+      "Monitor system performance and ensure high availability"
+    ],
+    "requiredSkills": ["Docker", "Kubernetes", "Jenkins", "Terraform", "AWS", "Linux", "Bash", "Python", "Git", "CI/CD", "Ansible", "Monitoring"],
+    "preferredSkills": ["ArgoCD", "Helm", "Prometheus", "Grafana", "ELK Stack", "Service Mesh", "GitOps", "Security Scanning"],
+    "experienceYears": 3
+  },
+  {
+    "id": "fullstack-developer",
+    "title": "Full Stack Developer",
+    "category": "Software Development",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Develop end-to-end web applications from frontend to backend",
+      "Design database schemas and implement API endpoints",
+      "Deploy and maintain applications in production environments"
+    ],
+    "requiredSkills": ["JavaScript", "TypeScript", "React", "Node.js", "Express", "SQL", "MongoDB", "HTML", "CSS", "Git", "REST APIs", "Docker"],
+    "preferredSkills": ["Next.js", "GraphQL", "Redis", "AWS", "Kubernetes", "CI/CD", "Testing", "System Design"],
+    "experienceYears": 3
+  },
+  {
+    "id": "ml-engineer",
+    "title": "Machine Learning Engineer",
+    "category": "Data & AI",
+    "level": "Senior",
+    "descriptions": [
+      "Design and deploy production machine learning systems",
+      "Optimize model performance and reduce inference latency",
+      "Build ML pipelines for training, evaluation, and deployment"
+    ],
+    "requiredSkills": ["Python", "TensorFlow", "PyTorch", "Machine Learning", "Deep Learning", "Docker", "SQL", "Linux", "Git", "MLOps", "Data Engineering", "Statistics"],
+    "preferredSkills": ["Kubernetes", "Spark", "Feature Store", "Model Serving", "Distributed Training", "NLP", "Computer Vision", "Reinforcement Learning"],
+    "experienceYears": 4
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "category": "Security",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Monitor and analyze security events and incidents",
+      "Conduct vulnerability assessments and penetration testing",
+      "Implement security policies and compliance frameworks"
+    ],
+    "requiredSkills": ["Network Security", "SIEM", "Incident Response", "Vulnerability Assessment", "Firewalls", "Linux", "Python", "Encryption", "IAM", "Compliance", "Risk Assessment", "Penetration Testing"],
+    "preferredSkills": ["SOAR", "Threat Hunting", "Forensics", "Cloud Security", "Zero Trust", "SOC Operations", "Malware Analysis", "OWASP"],
+    "experienceYears": 3
+  },
+  {
+    "id": "product-manager",
+    "title": "Product Manager (Technical)",
+    "category": "Product & Management",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Define product strategy and roadmap based on user research",
+      "Work cross-functionally with engineering, design, and business teams",
+      "Analyze metrics and KPIs to make data-driven product decisions"
+    ],
+    "requiredSkills": ["Product Strategy", "User Research", "Agile", "Scrum", "Data Analysis", "A/B Testing", "SQL", "Wireframing", "Stakeholder Management", "Roadmap Planning", "KPI Tracking", "Communication"],
+    "preferredSkills": ["Technical Background", "API Knowledge", "Figma", "Jira", "Analytics Tools", "Growth Hacking", "Machine Learning Basics", "Market Research"],
+    "experienceYears": 3
+  },
+  {
+    "id": "mobile-developer",
+    "title": "Mobile Developer",
+    "category": "Software Development",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Build native and cross-platform mobile apps for iOS and Android",
+      "Implement offline-first architectures and local storage solutions",
+      "Optimize app performance and battery usage"
+    ],
+    "requiredSkills": ["React Native", "Flutter", "JavaScript", "TypeScript", "Swift", "Kotlin", "REST APIs", "Git", "State Management", "Mobile UI/UX", "App Store Deployment", "Testing"],
+    "preferredSkills": ["Firebase", "GraphQL", "CI/CD", "Push Notifications", "Analytics", "Native Modules", "Performance Profiling", "Accessibility"],
+    "experienceYears": 2
+  },
+  {
+    "id": "data-engineer",
+    "title": "Data Engineer",
+    "category": "Data & AI",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Design and build scalable data pipelines and ETL processes",
+      "Manage data warehouses and data lakes",
+      "Ensure data quality and implement data governance practices"
+    ],
+    "requiredSkills": ["Python", "SQL", "Spark", "Hadoop", "ETL", "Airflow", "Data Warehousing", "AWS", "Docker", "Kafka", "Data Modeling", "Linux"],
+    "preferredSkills": ["dbt", "Snowflake", "Databricks", "Flink", "Data Governance", "Streaming", "Kubernetes", "Terraform"],
+    "experienceYears": 3
+  },
+  {
+    "id": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "category": "Design",
+    "level": "Mid-Level",
+    "descriptions": [
+      "Create user-centered designs through research and prototyping",
+      "Build design systems and component libraries",
+      "Conduct usability testing and iterate on designs"
+    ],
+    "requiredSkills": ["Figma", "User Research", "Prototyping", "Wireframing", "Design Systems", "Usability Testing", "Information Architecture", "Visual Design", "Interaction Design", "Typography", "Color Theory", "Responsive Design"],
+    "preferredSkills": ["HTML/CSS", "Motion Design", "Accessibility", "Design Thinking", "Analytics", "A/B Testing", "Illustration", "Sketch"],
+    "experienceYears": 2
+  }
+]

@@ -1,0 +1,262 @@
+.interview-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Setup */
+.interview-setup {
+  padding: var(--space-xl);
+  text-align: center;
+}
+.interview-setup h3 { margin-bottom: var(--space-lg); }
+.interview-setup__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+  text-align: left;
+}
+.interview-setup__skills {
+  text-align: left;
+  margin-bottom: var(--space-xl);
+}
+.interview-setup__skills label {
+  display: block;
+  margin-bottom: var(--space-sm);
+  font-weight: var(--fw-medium);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+/* Progress dots */
+.interview-progress {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: var(--space-xl);
+}
+.interview-progress__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--border-color);
+  transition: all var(--transition-fast);
+}
+.interview-progress__dot.active {
+  background: var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-glow);
+  transform: scale(1.3);
+}
+.interview-progress__dot.done {
+  background: var(--success);
+}
+
+/* Question */
+.interview-question {
+  padding: var(--space-xl);
+  margin-bottom: var(--space-lg);
+}
+.interview-question__meta {
+  display: flex;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
+}
+.interview-question__text {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--space-md);
+}
+.interview-question__hint {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  background: rgba(139, 92, 246, 0.08);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+.interview-question__hint svg { color: var(--accent-primary); flex-shrink: 0; margin-top: 2px; }
+
+/* Answer */
+.interview-answer {
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+.interview-answer textarea {
+  margin-bottom: var(--space-md);
+}
+.interview-answer__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.interview-answer__count {
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+}
+
+/* Previous feedback */
+.interview-prev-feedback {
+  padding: var(--space-md) var(--space-lg);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-lg);
+}
+.interview-prev-feedback h4 { margin-bottom: var(--space-xs); font-size: 0.875rem; }
+.interview-prev-feedback p { color: var(--text-secondary); font-size: 0.875rem; }
+
+/* Score Card */
+.interview-scorecard {
+  text-align: center;
+  padding: var(--space-2xl);
+  margin-bottom: var(--space-xl);
+}
+.interview-scorecard__header {
+  margin-bottom: var(--space-xl);
+}
+.interview-scorecard__trophy {
+  color: #f59e0b;
+  margin-bottom: var(--space-md);
+}
+.interview-scorecard__header h2 {
+  font-size: 3rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.interview-scorecard__header p {
+  color: var(--text-secondary);
+}
+.interview-scorecard__stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2xl);
+}
+.interview-scorecard__stat {
+  display: flex;
+  flex-direction: column;
+}
+.interview-scorecard__stat-value {
+  font-size: 1.5rem;
+  font-weight: var(--fw-bold);
+  color: var(--text-primary);
+}
+.interview-scorecard__stat-label {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+/* Feedback List */
+.interview-feedback-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+.interview-feedback-item {
+  padding: var(--space-lg);
+}
+.interview-feedback-q {
+  display: flex;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.interview-feedback-num {
+  background: var(--accent-primary);
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: var(--fw-bold);
+  flex-shrink: 0;
+}
+.interview-feedback-a {
+  padding: var(--space-md);
+  background: var(--bg-glass);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  font-size: 0.875rem;
+}
+.interview-feedback-a strong { color: var(--text-secondary); font-size: 0.75rem; }
+.interview-feedback-a p { margin-top: 4px; }
+
+.interview-feedback-eval {
+  border-top: 1px solid var(--border-color);
+  padding-top: var(--space-md);
+}
+.interview-feedback-score {
+  font-size: 0.9375rem;
+  margin-bottom: var(--space-sm);
+}
+.interview-feedback-eval > p {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-bottom: var(--space-sm);
+}
+.interview-feedback-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: var(--space-sm);
+}
+.interview-feedback-strength {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: var(--success);
+}
+.interview-feedback-improve {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: var(--warning);
+}
+
+/* Actions */
+.interview-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  padding: var(--space-md) 0 var(--space-xl);
+}
+
+/* History */
+.interview-history {
+  margin-top: var(--space-xl);
+}
+.interview-history h3 { margin-bottom: var(--space-md); }
+.interview-history__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.interview-history__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md) var(--space-lg);
+}
+.interview-history__info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+.interview-history__type { font-weight: var(--fw-semibold); }
+.interview-history__date { color: var(--text-muted); font-size: 0.8125rem; }
+.interview-history__score {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--warning);
+  font-weight: var(--fw-bold);
+}

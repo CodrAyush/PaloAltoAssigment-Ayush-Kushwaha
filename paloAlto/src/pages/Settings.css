@@ -1,0 +1,28 @@
+.settings-page { max-width: 700px; margin: 0 auto; }
+.settings-section { padding: var(--space-xl); margin-bottom: var(--space-lg); }
+.settings-section h3 { margin-bottom: var(--space-sm); }
+.settings-desc { color: var(--text-secondary); font-size: 0.875rem; margin-bottom: var(--space-lg); }
+.settings-section--danger { border: 1px solid rgba(239,68,68,0.2); }
+.settings-toggle-row { display: flex; justify-content: space-between; align-items: center; }
+.settings-toggle-info { display: flex; align-items: center; gap: var(--space-md); }
+.settings-toggle-info p { color: var(--text-muted); font-size: 0.8125rem; margin: 0; }
+.settings-icon--success { color: var(--success); }
+.settings-icon--warning { color: var(--warning); }
+.settings-toggle {
+  width: 48px; height: 26px; border-radius: var(--radius-full);
+  background: var(--border-color); position: relative; padding: 2px;
+  transition: background var(--transition-fast);
+}
+.settings-toggle--on { background: var(--accent-primary); }
+.settings-toggle__knob {
+  width: 22px; height: 22px; border-radius: 50%; background: white;
+  transition: transform var(--transition-fast);
+}
+.settings-toggle--on .settings-toggle__knob { transform: translateX(22px); }
+.settings-data-actions { display: flex; gap: var(--space-md); }
+.settings-summary { display: flex; flex-direction: column; gap: var(--space-sm); }
+.settings-summary__item {
+  display: flex; justify-content: space-between; padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--border-color); font-size: 0.9375rem;
+}
+.settings-summary__item span { color: var(--text-secondary); }
